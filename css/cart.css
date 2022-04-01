@@ -1,0 +1,121 @@
+#container {
+  margin: 0.5% 7% 6%;
+  border: 1px solid white;
+  background-color: white;
+  box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1),
+    0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+}
+body {
+  background-color: whitesmoke;
+}
+h1 {
+  padding: 1%;
+  margin: -1% -1% 0%;
+  background-color: rgb(56, 203, 223);
+  color: blue;
+
+  font-size: 20px;
+  border-radius: 10px 10px 100px 5px;
+  width: 10%;
+}
+#outerbox {
+  width: 95%;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  margin-left: 29px;
+  margin-right: 29px;
+  border-radius: 15px;
+  border: 1px solid #277799;
+}
+.upperbox {
+  border-radius: 15px;
+  display: inline-block;
+
+  margin: auto;
+  background-color: #eeeeee;
+}
+
+.lowerbox {
+  border-radius: 20px;
+  height: 150px;
+  margin: auto;
+  /* box-shadow: 10px black; */
+  background-color: rgb(168, 32, 32);
+}
+h3 {
+  margin: auto;
+  padding-top: 15px;
+  padding-bottom: 5px;
+  padding-left: 35px;
+  font-style: normal;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #455a64;
+}
+p {
+  margin: auto;
+  padding-top: 3px;
+  font-size: 13px;
+  padding-left: 35px;
+  font-style: italic;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 200;
+  color: #616161;
+}
+h4 {
+  margin: auto;
+  padding-top: 12px;
+  padding-left: 35px;
+  padding-bottom: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #9e9e9e;
+}
+h2 {
+  margin: auto;
+  padding-top: 15px;
+  padding-left: 50px;
+  padding-bottom: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  color: #424242;
+}
+h5 {
+  margin: auto;
+
+  padding-left: 50px;
+  padding-bottom: 5px;
+  font-size: 14px;
+  color: #424242;
+}
+h6 {
+  margin: auto;
+  padding-left: 1100px;
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #1565c0;
+}
+#btn {
+  background-color: rgb(10, 132, 136);
+  align-content: center;
+  border: none;
+  width: 100px;
+  height: 30px;
+  margin: 1% 15%;
+}
+#details {
+  /* /* display: block; */
+  box-shadow: 30px;
+  width: 550px;
+  margin-left: 25px;
+  border-radius: 10px 10px 10px 10px;
+  display: inline-block;
+  background-color: rgb(219, 213, 213);
+  overflow-x: hidden;
+  transition-property: all;
+  transition-duration: 0.5s;
+  max-height: auto;
+  transition-timing-function: cubic-bezier(0, 1, 0.5, 1);
+}
+#details.closed {
+  max-height: auto;
+}

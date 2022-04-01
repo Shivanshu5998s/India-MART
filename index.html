@@ -1,0 +1,1033 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="shortcut icon" href="./logos/indiamart.png" type="image/png" />
+
+    <title>
+      IndiaMART-Indian Manufacturers Suppliers Exporters Directory,India
+      Exporter Manufacturer
+    </title>
+
+    <link rel="stylesheet" href="./css/home.css" />
+  </head>
+
+  <body>
+    <div class="main">
+      <header id="headers">
+        <div id="cont">
+          <div class="img"></div>
+
+          <div class="location">
+            <img
+              style="width: 20px; height: 20px; margin-top: 8px"
+              src="https://img.icons8.com/material-outlined/24/000000/marker.png"
+            />
+            <h1>All India</h1>
+            <select
+              style="
+                border: none;
+                margin-left: 0px;
+                color: teal;
+                cursor: pointer;
+              "
+              name=""
+              id=""
+            >
+              <option style="border: none" value=""></option>
+              <option style="border: none" value="">Indore</option>
+              <option style="border: none" value="">Mumbai</option>
+              <option style="border: none" value="">Dehli</option>
+              <option style="border: none" value="">Goa</option>
+              <option style="border: none" value="">Kanpur</option>
+            </select>
+          </div>
+
+          <div style="margin-left: 0.5px" id="cam">
+            <input
+              style="height: 30px; margin-top: 12px; color: transparent"
+              type="text"
+              placeholder="Enter product/service to search"
+              id="searchbar"
+              value=""
+            />
+            <img
+              id="mic"
+              src="https://img.icons8.com/material-rounded/24/000000/microphone.png"
+            />
+            <button
+              style="margin-top: 12px"
+              class="search-button"
+              id="search-btn"
+            >
+              <img
+                src="https://img.icons8.com/ios-glyphs/30/ffffff/search--v1.png"
+              />
+              <span class="search-text">Search</span>
+            </button>
+          </div>
+
+          <div id="best-price">
+            <h2>Get Best Price</h2>
+          </div>
+
+          <div class="right">
+            <div>
+              <img
+                class="covi"
+                src="https://img.icons8.com/pastel-glyph/64/ffffff/coronavirus-shield--v1.png"
+                height="23px"
+              /><br />
+              <span>Covid-19 Supplies</span>
+            </div>
+
+            <div>
+              <img
+                src="https://img.icons8.com/ios-glyphs/30/ffffff/small-business--v1.png"
+                height="23px"
+              />
+              <span>Sell</span>
+            </div>
+
+            <div>
+              <img
+                src="https://img.icons8.com/material-outlined/24/ffffff/help.png"
+                height="23px"
+              />
+              <span>Help</span>
+            </div>
+
+            <div>
+              <img
+                class="mgs"
+                src="https://img.icons8.com/material-outlined/24/ffffff/create-new-child-post.png"
+                height="23px"
+              />
+              <span>Messages</span>
+            </div>
+
+            <div>
+              <img
+                class="sign"
+                src="https://img.icons8.com/windows/32/ffffff/user.png"
+                height="23px"
+              />
+              <span class="hov"
+                ><span id="reg">Registration </span>
+                <ul class="hov2">
+                  <li></li>
+                  <li><a href="./html/signup.html">Sign Up</a></li>
+                  <li><a href="./html/signin.html">Sign In</a></li>
+                  <li>
+                    <a href="./index.html" onclick="signout()">Sign Out</a>
+                  </li>
+                  <li><a href="./html/cart.html">My Order</a></li>
+                </ul>
+              </span>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <div id="back">
+        <div class="backbox">
+          <h2>Tell us what you Need</h2>
+          <input
+            type="text"
+            placeholder="Enter Product/Service Name"
+            id="tellusinput"
+            value=""
+            required
+          />
+          <input
+            style="margin-left: -240px; margin-top: 20px; width: 200px"
+            id="tellusinput"
+            type="text "
+            placeholder="Enter your name"
+          />
+          <button class="submit-back" id="tell-us-btn">
+            Submit Requirement
+          </button>
+          <hr style="margin: 0% 25%" />
+          <!-- <h3 id="youmay">You may be looking to buy</h3> -->
+        </div>
+        <div class="innerbox2">
+          <h2 style="font-size: 30px">Strengthen Your Profile</h2>
+          <img
+            src="https://my.imimg.com/gifs_new/spiral-border1.png"
+            id="innerbox2img1"
+          />
+          <p id="welcome-text">Welcome,</p>
+          <p id="welcome-text">Continue to update your business profile.</p>
+          <div class="inputpart">
+            <img
+              src="https://www.bing.com/th?id=OIP.fagXC2sjsGqRSc6WsRCFdgAAAA&w=98&h=100&c=8&rs=1&qlt=90&o=6&dpr=1.1&pid=3.1&rm=2"
+            />
+            <input
+              type="number"
+              placeholder="Enter Mobile Number"
+              id="update"
+              value=""
+            />
+          </div>
+          <p id="check-num"></p>
+          <button class="update-button" id="update-btn">Update →</button>
+        </div>
+      </div>
+      <div id="drug">
+        <div class="parts">
+          <img
+            src="https://img.icons8.com/external-flatart-icons-flat-flatarticons/64/000000/external-medicine-health-care-and-medical-flatart-icons-flat-flatarticons.png"
+            height="50px"
+          />
+          <li id="text">Drugs & Pharma</li>
+        </div>
+        <div class="parts">
+          <img
+            src="https://img.icons8.com/external-itim2101-blue-itim2101/64/000000/external-nurse-female-occupation-avatar-itim2101-blue-itim2101.png"
+            height="50px"
+          />
+          <li id="text">Hospital & Diagnostics</li>
+        </div>
+        <div class="parts">
+          <img
+            src="https://img.icons8.com/ultraviolet/48/000000/sprout.png"
+            height="50px"
+          />
+          <li id="text">Food & Agriculture</li>
+        </div>
+        <div class="parts">
+          <img
+            src="https://img.icons8.com/cotton/50/000000/factory-1.png"
+            height="50px"
+          />
+          <li id="text">Industrial Machinery</li>
+        </div>
+        <div class="parts">
+          <img
+            src="https://img.icons8.com/ultraviolet/50/000000/oil-pump-jack.png"
+            height="50px"
+          />
+          <li id="text">Industrial Supplies</li>
+        </div>
+        <div class="parts">
+          <img
+            src="https://img.icons8.com/ultraviolet/50/000000/drill.png"
+            height="50px"
+          />
+          <li id="text">Electronics & Electrical</li>
+        </div>
+      </div>
+      <h2 class="productdiv">.</h2>
+      <!-- Realted to items you've viewed -->
+      <div class="section-main">
+        <div class="section">
+          <h2>
+            Medical Essential, Safety &amp; Protective Clothing and Apparel
+          </h2>
+          <div class="inner-box">
+            <div class="maskimg">
+              <img
+                class="img-mask"
+                src="https://hm.imimg.com/imhome_gifs/bigBn01.jpg"
+              />
+              <div class="inner-text">
+                <ul>
+                  <li class="links">
+                    <a class="dekh" href="#">Disposable Gloves</a>
+                  </li>
+                  <li class="links">
+                    <a class="dekh" href="#">Hazmat Suit</a>
+                  </li>
+                  <li class="links">
+                    <a class="dekh" href="#">Personal Protective Equipment</a>
+                  </li>
+                </ul>
+
+                <a href="#" class="button-view">View All</a>
+              </div>
+            </div>
+
+            <div class="mini-img">
+              <ul class="img-2">
+                <li class="img-3">
+                  <img src="https://hm.imimg.com/imhome_gifs/cvid02.png" />
+                </li>
+
+                <ul style="margin: 0% 3%">
+                  <li class="nice1">Face Mask</li>
+
+                  <li class="nice">3 Ply Face Mask</li>
+
+                  <li class="nice">Disposable Face Mask</li>
+
+                  <li class="nice">N95 Respirator Mask</li>
+
+                  <li class="nice">Nose Masks</li>
+                </ul>
+              </ul>
+              <ul class="img-2">
+                <li class="img-3">
+                  <img
+                    src="https://3.imimg.com/data3/TH/GC/GLADMIN-56254/oxygen-cylinders-125x125.jpg"
+                  />
+                </li>
+
+                <ul style="margin: 0% 1%">
+                  <li class="nice1">Oxygen Supplies</li>
+
+                  <li class="nice">Oxygen Cylinder</li>
+
+                  <li class="nice">Portable Oxygen Can</li>
+
+                  <li class="nice">Empty Oxygen Cylinder</li>
+
+                  <li class="nice">Oxygen Concentrator</li>
+
+                  <li class="nice">Oxygen Cylinder Manifold</li>
+
+                  <li class="nice">Oxygen Flow Meter</li>
+                </ul>
+              </ul>
+              <ul class="img-2">
+                <li class="img-3">
+                  <img
+                    src="https://5.imimg.com/data5/GA/AX/PV/SELLER-134485/oxygen-mask-125x125.jpg"
+                  />
+                </li>
+
+                <ul style="margin: 0% 5%">
+                  <li class="nice1">Medical Mask</li>
+
+                  <li class="nice">CRP Mask</li>
+
+                  <li class="nice">Oxygen Mask</li>
+
+                  <li class="nice">CPAP Mask</li>
+
+                  <li class="nice">BIPAP Mask</li>
+
+                  <li class="nice">Nasal Mask</li>
+                </ul>
+              </ul>
+              <ul class="img-2">
+                <li class="img-3">
+                  <img src="https://hm.imimg.com/imhome_gifs/cvid03.png" />
+                </li>
+
+                <ul style="margin: 0% 7%">
+                  <li class="nice1">Surgical Gloves</li>
+
+                  <li class="nice">Nitriles Gloves</li>
+
+                  <li class="nice">Non-Sterile Gloves</li>
+                </ul>
+              </ul>
+              <ul class="img-2">
+                <li class="img-3">
+                  <img
+                    src="https://5.imimg.com/data5/FR/RK/MY-9882376/disposable-surgical-cap-125x125.jpg"
+                  />
+                </li>
+
+                <ul style="margin: 0% 7%">
+                  <li class="nice1">Surgical Caps</li>
+
+                  <li class="nice">Bouffant Caps</li>
+
+                  <li class="nice">Nurse Caps</li>
+
+                  <li class="nice">Disposable Caps</li>
+                </ul>
+              </ul>
+              <ul class="img-2">
+                <li class="img-3">
+                  <img
+                    src="https://5.imimg.com/data5/SI/XQ/MB/GLADMIN-73621/coronavirus-ppe-kit-125x125.png"
+                  />
+                </li>
+
+                <ul>
+                  <li class="nice1">Personal Protective Equipment</li>
+
+                  <li class="nice">Hazmat Suit</li>
+
+                  <li class="nice">Face Shields</li>
+
+                  <li class="nice">Disposable Gloves</li>
+
+                  <li class="nice">Disposable Face Mask</li>
+
+                  <li class="nice">Disposable Shoes Cover</li>
+                </ul>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="section">
+          <h2>Pharmaceutical Drug, Medicine, Medical Care & Consultation</h2>
+          <div class="inner-box">
+            <div class="maskimg">
+              <img
+                class="img-mask"
+                src="https://hm.imimg.com/imhome_gifs/bigBn06.jpg"
+              />
+              <div class="inner-text">
+                <ul>
+                  <li class="links">
+                    <a class="dekh" href="#">Pharma Raw Material</a>
+                  </li>
+                  <li class="links">
+                    <a class="dekh" href="#">Pharmaceutical Chemical</a>
+                  </li>
+                  <li class="links">
+                    <a class="dekh" href="#">Clinical Trial Services</a>
+                  </li>
+                  <li class="links">
+                    <a class="dekh" href="#">x-ray-services</a>
+                  </li>
+                </ul>
+
+                <a href="#" class="button-view">View All</a>
+              </div>
+            </div>
+
+            <div class="mini-img">
+              <ul class="img-2">
+                <li class="img-3">
+                  <img
+                    src="https://5.imimg.com/data5/KT/MJ/MY-16675294/pharmaceutical-drug-125x125.jpg"
+                  />
+                </li>
+
+                <ul style="margin: 0% 7%">
+                  <li class="nice1">Pharmaceutical Drug</li>
+
+                  <li class="nice">Tocilizumab</li>
+
+                  <li class="nice">FabiFlu</li>
+
+                  <li class="nice">Remdesivir</li>
+
+                  <li class="nice">Doxycycline</li>
+
+                  <li class="nice">Deflazacort</li>
+                </ul>
+              </ul>
+              <ul class="img-2">
+                <li class="img-3">
+                  <img
+                    src="https://3.imimg.com/data3/JR/DH/GLADMIN-7427/nutritional-supplements-125x125.jpg"
+                  />
+                </li>
+
+                <ul style="margin: 0% 7%">
+                  <li class="nice1">Nutraceuticals</li>
+
+                  <li class="nice">Zinc Sulphate Tablets</li>
+
+                  <li class="nice">Zincovit Tablets</li>
+
+                  <li class="nice">Vitamin C Tablets</li>
+
+                  <li class="nice">Multivitamin Syrup</li>
+
+                  <li class="nice">Vitamin D3</li>
+                </ul>
+              </ul>
+              <ul class="img-2">
+                <li class="img-3">
+                  <img
+                    src="https://5.imimg.com/data5/PQ/HW/MY-7191707/thinq-mass-gainer-282-lbs-29-125x125.png"
+                  />
+                </li>
+
+                <ul style="margin: 0% 3%">
+                  <li class="nice1">Fitness Supplements</li>
+
+                  <li class="nice">Weight Gain Nutrition</li>
+
+                  <li class="nice">Immune Booster</li>
+
+                  <li class="nice">Pre workout Supplements</li>
+
+                  <li class="nice">Weight Gain Capsule</li>
+                </ul>
+              </ul>
+              <ul class="img-2">
+                <li class="img-3">
+                  <img
+                    src="https://3.imimg.com/data3/BA/YT/MY-2018319/multidisciplinary-care-125x125.jpg"
+                  />
+                </li>
+
+                <ul style="margin: 0% 7%">
+                  <li class="nice1">Medical Treatment Services</li>
+
+                  <li class="nice">Dental Treatment Services</li>
+
+                  <li class="nice">Eye Treatment</li>
+
+                  <li class="nice">Plastic Surgery Services</li>
+
+                  <li class="nice">Medical Surgery Services</li>
+                </ul>
+              </ul>
+              <ul class="img-2">
+                <li class="img-3">
+                  <img
+                    src="https://5.imimg.com/data5/JM/MB/MY-4222986/8-125x125.jpg"
+                  />
+                </li>
+
+                <ul style="margin: 0% 7%">
+                  <li class="nice1">Medical Test Services</li>
+
+                  <li class="nice">CT Scan Services</li>
+
+                  <li class="nice">Blood Testing</li>
+
+                  <li class="nice">Ultrasound Services</li>
+
+                  <li class="nice">ECHO Cardiography</li>
+                </ul>
+              </ul>
+              <ul class="img-2">
+                <li class="img-3">
+                  <img
+                    src="https://5.imimg.com/data5/YC/QB/MY-3773531/allopathic-pcd-pharma-franchise-125x125.jpg"
+                  />
+                </li>
+
+                <ul style="margin: 0% 7%">
+                  <li class="nice1">PCD Pharma Franchise</li>
+
+                  <li class="nice">Pharma Franchise</li>
+
+                  <li class="nice">Allopathic PCD Pharma Franchise</li>
+
+                  <li class="nice">Ayurvedic PCD Pharma Franchise</li>
+
+                  <li class="nice">Veterinary PCD Pharma Franchise</li>
+                </ul>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="section">
+          <h2>Food, Agriculture & Farming</h2>
+          <div class="inner-box">
+            <div class="maskimg">
+              <img
+                class="img-mask"
+                src="https://hm.imimg.com/imhome_gifs/vegetable-fruits.png"
+              />
+              <div class="inner-text">
+                <ul>
+                  <li class="links">
+                    <a class="dekh" href="#">Dairy Products</a>
+                  </li>
+                  <li class="links"><a class="dekh" href="#">Tractor</a></li>
+                  <li class="links"><a class="dekh" href="#">Cultivator</a></li>
+                </ul>
+
+                <a href="#" class="button-view">View All</a>
+              </div>
+            </div>
+
+            <div class="mini-img">
+              <ul class="img-2">
+                <li class="img-3">
+                  <img
+                    src="https://3.imimg.com/data3/IS/MS/GLADMIN-105901/rice-125x125.jpg"
+                  />
+                </li>
+
+                <ul style="margin: 0% 7%">
+                  <li class="nice1">Rice</li>
+
+                  <li class="nice">Basmati Rice</li>
+
+                  <li class="nice">Kolam Rice</li>
+
+                  <li class="nice">Ponni Rice</li>
+
+                  <li class="nice">Sona Masoori Rice</li>
+                </ul>
+              </ul>
+              <ul class="img-2">
+                <li class="img-3">
+                  <img src="https://hm.imimg.com/imhome_gifs/veg01.png" />
+                </li>
+
+                <ul style="margin: 0% 7%">
+                  <li class="nice1">Fresh Vegetables</li>
+
+                  <li class="nice">Potato</li>
+
+                  <li class="nice">Onion</li>
+
+                  <li class="nice">Tomato</li>
+
+                  <li class="nice">Mushroom</li>
+                </ul>
+              </ul>
+              <ul class="img-2">
+                <li class="img-3">
+                  <img
+                    src="https://3.imimg.com/data3/QL/BL/GLADMIN-1571/pulses-125x125.jpg"
+                  />
+                </li>
+
+                <ul style="margin: 0% 7%">
+                  <li class="nice1">Whole Spices</li>
+
+                  <li class="nice">Green Cardamom</li>
+
+                  <li class="nice">Black Pepper</li>
+
+                  <li class="nice">Cardamom</li>
+
+                  <li class="nice">Turmeric</li>
+                </ul>
+              </ul>
+              <ul class="img-2">
+                <li class="img-3">
+                  <img
+                    src="https://5.imimg.com/data5/OP/LS/MY-1393371/mono-potassium-phosphate-foliar-fertilizers-125x125.jpg"
+                  />
+                </li>
+
+                <ul style="margin: 0% 7%">
+                  <li class="nice1">Fertilizer</li>
+
+                  <li class="nice">Organic Fertilizers</li>
+
+                  <li class="nice">Bio Fertilizers</li>
+                  <li class="nice">Vermicompost</li>
+
+                  <li class="nice">NPK Fertilizer</li>
+                </ul>
+              </ul>
+              <ul class="img-2">
+                <li class="img-3">
+                  <img
+                    src="https://5.imimg.com/data5/KJ/GZ/SN/SELLER-11596263/alpler-disc-plough-125x125.jpg"
+                  />
+                </li>
+
+                <ul style="margin: 0% 7%">
+                  <li class="nice1">Agricultural Tools</li>
+
+                  <li class="nice">Agricultural Sprayers</li>
+
+                  <li class="nice">Agricultural Plough</li>
+
+                  <li class="nice">Disc Harrow</li>
+                </ul>
+              </ul>
+              <ul class="img-2">
+                <li class="img-3">
+                  <img
+                    src="https://5.imimg.com/data5/ML/AA/SC/SELLER-4060804/manual-power-weeder-125x125.png"
+                  />
+                </li>
+
+                <ul style="margin: 0% 7%">
+                  <li class="nice1">Agricultural Machinery</li>
+
+                  <li class="nice">Power Weeder</li>
+
+                  <li class="nice">Combine Harvester</li>
+
+                  <li class="nice">Power Tiller</li>
+
+                  <li class="nice">Crop Threshers</li>
+                </ul>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="section">
+          <h2>Apparel, Clothing & Garments</h2>
+          <div class="inner-box">
+            <div class="maskimg">
+              <img
+                class="img-mask"
+                src="https://hm.imimg.com/imhome_gifs/apparel-clothing-garments.jpg"
+              />
+              <div class="inner-text">
+                <ul>
+                  <li class="links">
+                    <a class="dekh" href="#">Ladies Kurtis</a>
+                  </li>
+                  <li class="links">
+                    <a class="dekh" href="#">Mens T-Shirts & Blazers</a>
+                  </li>
+                  <li class="links">
+                    <a class="dekh" href="#">Safety Shoes</a>
+                  </li>
+                </ul>
+
+                <a href="#" class="button-view">View All</a>
+              </div>
+            </div>
+
+            <div class="mini-img">
+              <ul class="img-2">
+                <li class="img-3">
+                  <img
+                    src="https://3.imimg.com/data3/EK/BM/GLADMIN-2296/mens-t-shirts-125x125.jpg"
+                  />
+                </li>
+
+                <ul style="margin: 0% 7%">
+                  <li class="nice1">Mens T-Shirts</li>
+
+                  <li class="nice">Mens Round Neck T Shirt</li>
+
+                  <li class="nice">Mens Polo T Shirt</li>
+
+                  <li class="nice">Graphic Printed T-Shirt</li>
+                </ul>
+              </ul>
+              <ul class="img-2">
+                <li class="img-3">
+                  <img
+                    src="https://3.imimg.com/data3/CS/SE/MY-2/blazers-125x125.jpg"
+                  />
+                </li>
+
+                <ul style="margin: 0% 7%">
+                  <li class="nice1">Blazers</li>
+
+                  <li class="nice">Mens Blazer</li>
+
+                  <li class="nice">Womens Blazer</li>
+
+                  <li class="nice">Designer Blazer</li>
+                </ul>
+              </ul>
+              <ul class="img-2">
+                <li class="img-3">
+                  <img
+                    src="https://3.imimg.com/data3/XM/FR/GLADMIN-8367/safety-shoes-125x125.jpg"
+                  />
+                </li>
+
+                <ul style="margin: 0% 7%">
+                  <li class="nice1">Safety Shoes</li>
+
+                  <li class="nice">Leather Safety Shoes</li>
+
+                  <li class="nice">Steel Toe Safety Shoes</li>
+
+                  <li class="nice">Industrial Shoes</li>
+                </ul>
+              </ul>
+              <ul class="img-2">
+                <li class="img-3">
+                  <img
+                    src="https://3.imimg.com/data3/MM/IB/GLADMIN-2576/trouser-125x125.jpg"
+                  />
+                </li>
+
+                <ul style="margin: 0% 7%">
+                  <li class="nice1">Trouser</li>
+
+                  <li class="nice">Cargo Pant</li>
+
+                  <li class="nice">Jogger Pant</li>
+                  <li class="nice">Chino Trousers</li>
+                </ul>
+              </ul>
+              <ul class="img-2">
+                <li class="img-3">
+                  <img
+                    src="https://3.imimg.com/data3/RR/YL/GLADMIN-105908/shirt-125x125.jpg"
+                  />
+                </li>
+
+                <ul style="margin: 0% 7%">
+                  <li class="nice1">Shirt</li>
+
+                  <li class="nice">Printed Shirt</li>
+
+                  <li class="nice">Designer Shirt</li>
+
+                  <li class="nice">Plain Shirt</li>
+                </ul>
+              </ul>
+              <ul class="img-2">
+                <li class="img-3">
+                  <img
+                    src="https://5.imimg.com/data5/FK/WJ/GLADMIN-2/synthetic-fabric-125x125.jpg"
+                  />
+                </li>
+
+                <ul style="margin: 0% 7%">
+                  <li class="nice1">synthetic Febrics</li>
+                  <li class="nice">Rayon Febrics</li>
+
+                  <li class="nice">Faux Fur Fabrics</li>
+
+                  <li class="nice">Viscose Fabrics</li>
+                </ul>
+              </ul>
+              <ul class="img-2">
+                <li class="img-3">
+                  <img
+                    src="https://3.imimg.com/data3/OC/VP/GLADMIN-43237/ladies-kurtis-125x125.jpg"
+                  />
+                </li>
+
+                <ul style="margin: 0% 7%">
+                  <li class="nice1">Ladies Kurtis</li>
+
+                  <li class="nice">Designer Kurtis</li>
+                  <li class="nice">Cotton Kurtis</li>
+
+                  <li class="nice">Ladies Woolen Kurtis</li>
+                </ul>
+              </ul>
+              <ul class="img-2">
+                <li class="img-3">
+                  <img
+                    src="https://3.imimg.com/data3/FH/NO/GLADMIN-1110/mannequins-125x125.jpg"
+                  />
+                </li>
+
+                <ul style="margin: 0% 7%">
+                  <li class="nice1">Mannequins</li>
+
+                  <li class="nice">Female Mannequins</li>
+                  <li class="nice">Dress forms</li>
+
+                  <li class="nice">Male Mannequins</li>
+                </ul>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="section">
+          <h2>Hygiene, Personal Care and Cleaning Supplies</h2>
+          <div class="inner-box">
+            <div class="maskimg">
+              <img
+                class="img-mask"
+                src="https://hm.imimg.com/imhome_gifs/bigBn02.jpg"
+              />
+              <div class="inner-text">
+                <ul>
+                  <li class="links">
+                    <a class="dekh" href="#">Sanitary Napkins</a>
+                  </li>
+                  <li class="links">
+                    <a class="dekh" href="#">Mosquito Repellent</a>
+                  </li>
+                  <li class="links">
+                    <a class="dekh" href="#">Pocket Hand Sanitizer</a>
+                  </li>
+                </ul>
+
+                <a href="#" class="button-view">View All</a>
+              </div>
+            </div>
+
+            <div class="mini-img">
+              <ul class="img-2">
+                <li class="img-3">
+                  <img
+                    src="https://5.imimg.com/data5/LQ/TI/FF/GLADMIN-3061/purell-advanced-hand-sanitizer-125x125.jpg"
+                  />
+                </li>
+
+                <ul style="margin: 0% 3%">
+                  <li class="nice1">Hand Sanitizer</li>
+
+                  <li class="nice">Alcohol Based Hand Sanitizer</li>
+
+                  <li class="nice">Hand Sanitizer Spray</li>
+
+                  <li class="nice">Lifebuoy Hand Sanitizer</li>
+
+                  <li class="nice">3M Hand Sanitizer</li>
+                  <li class="nice">Dettol Hand Sanitizer</li>
+                </ul>
+              </ul>
+              <ul class="img-2">
+                <li class="img-3">
+                  <img
+                    src="https://5.imimg.com/data5/XG/DF/MY-2045391/tissue-papers-and-roles-125x125.jpg"
+                  />
+                </li>
+
+                <ul style="margin: 0% 7%">
+                  <li class="nice1">Tissue Paper</li>
+
+                  <li class="nice">Toilet Paper Roll</li>
+
+                  <li class="nice">Tissue Jumbo Roll</li>
+
+                  <li class="nice">Cotton Towel</li>
+
+                  <li class="nice">Tissue Napkin</li>
+
+                  <li class="nice">Wet Wipes</li>
+                </ul>
+              </ul>
+              <ul class="img-2">
+                <li class="img-3">
+                  <img
+                    src="https://5.imimg.com/data5/SR/TL/MY-4313393/hand-wash-liquid-soaps-125x125.jpg"
+                  />
+                </li>
+
+                <ul style="margin: 0% 3%">
+                  <li class="nice1">Hand Soap</li>
+
+                  <li class="nice">Liquid Hand Wash</li>
+
+                  <li class="nice">Lifebuoy Hand Wash</li>
+
+                  <li class="nice">Hand Washing Gels</li>
+
+                  <li class="nice">Antibacterial Hand Wash</li>
+
+                  <li class="nice">Paper Soap</li>
+                </ul>
+              </ul>
+              <ul class="img-2">
+                <li class="img-3">
+                  <img
+                    src="https://5.imimg.com/data5/WP/ZE/XX/ANDROID-22468/product-jpeg-125x125.jpg"
+                  />
+                </li>
+
+                <ul style="margin: 0% 7%">
+                  <li class="nice1">Mops</li>
+
+                  <li class="nice">Cotton Mop</li>
+                  <li class="nice">Magic Mop</li>
+                  <li class="nice">Twist Mop</li>
+                  <li class="nice">Microfiber Mop</li>
+
+                  <li class="nice">Sponge Mops</li>
+                </ul>
+              </ul>
+              <ul class="img-2">
+                <li class="img-3">
+                  <img
+                    src="https://4.imimg.com/data4/CS/VF/MY-4373725/garbage-bags-125x125.jpg"
+                  />
+                </li>
+
+                <ul style="margin: 0% 3%">
+                  <li class="nice1">Garbage Bags Disposable Garbage Bags</li>
+
+                  <li class="nice">Bin Bag</li>
+
+                  <li class="nice">Plastic Garbage Bag</li>
+
+                  <li class="nice">LDPE Garbage Bags</li>
+                </ul>
+              </ul>
+              <ul class="img-2">
+                <li class="img-3">
+                  <img src="https://hm.imimg.com/imhome_gifs/cvid05.png" />
+                </li>
+
+                <ul style="margin: 0% 7%">
+                  <li class="nice1">Cleaning Liquids & Wipes</li>
+
+                  <li class="nice">Phenyl</li>
+
+                  <li class="nice">Floor Cleaner</li>
+
+                  <li class="nice">Toilet Cleaners</li>
+
+                  <li class="nice">Cleaning Wipes</li>
+                </ul>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <img
+        style="width: 100%; height: 500px; cursor: pointer"
+        src="./myimg/Screenshot (5).png"
+        src=""
+        alt=""
+      />
+      <img
+        style="width: 100%; height: 500px; cursor: pointer"
+        src="./myimg/Screenshot (6).png"
+        src=""
+        alt=""
+      />
+      <img
+        style="width: 100%; height: 500px; cursor: pointer"
+        src="./myimg/Screenshot (7).png"
+        src=""
+        alt=""
+      />
+    </div>
+    <footer>
+      <div id="fhead">
+        <p>We are here to help you!</p>
+        <hr />
+      </div>
+      <div id="fmain">
+        <div id="dv1" class="dv">
+          <p>About Us</p>
+          <p>Join Sales</p>
+          <p>Sucess Stories</p>
+          <p>Press Section</p>
+          <p>Advertise with Us</p>
+          <p>Investor Sector</p>
+        </div>
+        <div id="dv2" class="dv">
+          <p>Help</p>
+          <p>Feedback</p>
+          <p>Complaints</p>
+          <p>Customer Care</p>
+          <p>Jobs & Careers</p>
+          <p>Contact Us</p>
+        </div>
+        <div id="dv3" class="dv">
+          <h3>Suppliers Tool Kit</h3>
+          <p>Sell on indiaMART</p>
+          <p>Latest Buylead</p>
+          <p>Learning Center</p>
+        </div>
+        <div id="dv4" class="dv">
+          <h3>Buyers Tool Kit</h3>
+          <p>Post your requirements</p>
+          <p>Products you Buy</p>
+          <p>Search Products and Suppliers</p>
+          <p>Pay with indiaMART</p>
+        </div>
+        <div id="dv5" class="dv">
+          <h3>Events</h3>
+          <p>Trade Shows</p>
+          <p>Conferences</p>
+          <p>Events by Country</p>
+        </div>
+      </div>
+      <div id="ffoot">
+        <hr />
+        <p>
+          Copyright © 1996-2021 IndiaMART InterMESH Ltd. All rights
+          reserved.<span>Terms of Use - Privacy Policy - Link to Us</span>
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>
+
+<script src="./js/home.js"></script>

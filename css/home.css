@@ -1,0 +1,657 @@
+/* *{
+    margin: 0px;
+    padding: 0px;
+} */
+
+body {
+  background-color: gainsboro;
+}
+
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* .main {
+      height: 3999px;
+   
+  
+  Nurse Cap
+  Disposable Cap
+  
+  } */
+
+#headers {
+  position: fixed;
+  top: -0.2%;
+  left: -0.5%;
+}
+
+#cont {
+  display: flex;
+  position: fixed;
+  z-index: 8;
+  background-color: #2e3192;
+  height: 55px;
+  width: 100%;
+}
+
+.img {
+  cursor: pointer;
+  background-image: url("https://utils.imimg.com/globalhf/hrd-sp-v29.png");
+  background-repeat: no-repeat;
+  /* position: relative;
+      top: 0%; */
+  background-position: 0 3px;
+  background-size: 232%;
+  height: 40px;
+  width: 10%;
+  margin: 0% 2%;
+}
+
+.location {
+  display: flex;
+  background-color: white;
+  color: black;
+  border: 0.7px solid black;
+  width: 166px;
+  height: 34px;
+  /* font-size: 20px; */
+  text-align: center;
+  margin: 0.8% 0%;
+  border-radius: 5px 0 0 5px;
+  cursor: pointer;
+}
+
+#searchbar {
+  cursor: pointer;
+  width: 307px;
+  height: 30px;
+  margin: 2.3% -1px;
+  font-size: 15px;
+  outline: 0;
+}
+
+h1 {
+  text-align: center;
+  font-size: 13px;
+  margin: 8% 2%;
+}
+
+#mic {
+  margin: 3% 0% 3% -12%;
+}
+
+.search-button {
+  border: none;
+  display: flex;
+  margin: 2.3% 0.8%;
+  width: 104px;
+  height: 36px;
+  font-size: 15px;
+  background-color: #00a699;
+  color: white;
+  border-radius: 0 4px 4px 0;
+  cursor: pointer;
+}
+
+#best-price {
+  border: 1px solid black;
+  background-color: white;
+  color: rgb(12, 12, 80);
+  text-align: center;
+  width: 150px;
+  height: 35px;
+  margin: 0.8% -4%;
+  border-radius: 3px;
+  font-size: 10px;
+  cursor: pointer;
+}
+
+.search-button:hover {
+  background-color: #088f84;
+}
+
+#best-price:hover {
+  box-shadow: 0 0 4px 1px rgb(255 255 255 / 50%);
+}
+
+.right {
+  display: grid;
+  /* float: right; */
+  color: white;
+  margin: 0.5% 2% 0% 8%;
+  grid-template-columns: 35% 11% 11% 18% 13%;
+  gap: 9px;
+}
+
+.right > div {
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.covi {
+  margin: 0% 31%;
+}
+
+/* .right div:hover {
+      
+  } */
+
+.mgs,
+.sign {
+  margin: -4% 22%;
+  height: 28px;
+}
+
+#cam {
+  display: flex;
+}
+
+#back {
+  display: flex;
+  width: 101%;
+  border: 1px solid black;
+  height: 330px;
+  background-image: url("https://my.imimg.com/gifs-new/headerbg03.jpg");
+  margin: 0% -1%;
+}
+
+#back .backbox {
+  width: 46%;
+  height: 73%;
+  background-color: #ebecf1;
+  border-radius: 5px;
+  margin: 5% 0% 0% 9%;
+  border: 1px solid white;
+}
+
+.backbox,
+.innerbox2 h2 {
+  color: rgb(25, 25, 124);
+  display: block;
+  text-align: center;
+  /* font-weight: 900; */
+  margin: 4%;
+}
+
+#tellusinput {
+  width: 90%;
+  margin: 0% 4%;
+  font-size: 15px;
+  padding: 1%;
+  outline: none;
+  border: 1px solid grey;
+  border-radius: 2px;
+}
+
+.submit-back {
+  width: 39%;
+  background-color: #0da195;
+  color: white;
+  border: grey;
+  border-radius: 6px;
+  height: 39px;
+  font-size: 18px;
+  font-weight: 700;
+  margin: 3% 30%;
+  cursor: pointer;
+}
+
+.innerbox2 {
+  width: 35%;
+  height: 73%;
+  background-color: #ebecf1;
+  border-radius: 5px;
+  margin: 5% 0% 0% 2%;
+  border: 1px solid white;
+}
+
+#welcome-text {
+  display: block;
+  text-align: center;
+  color: lightslategray;
+  line-height: 6px;
+  font-size: 18px;
+  margin-top: 2%;
+}
+
+#update {
+  width: 20%;
+  height: 32px;
+
+  position: absolute;
+  border: none;
+  outline: none;
+  font-size: 17px;
+}
+
+.inputpart {
+  background-color: white;
+  margin: 3% 15% 0%;
+  width: 69%;
+  height: 38px;
+
+  border: 1px solid grey;
+}
+
+.update-button {
+  cursor: pointer;
+  margin: 0% 35%;
+  background-color: #0da195;
+  color: white;
+  border: 1px solid grey;
+  width: 30%;
+  height: 30px;
+  font-size: 19px;
+}
+
+#drug {
+  position: absolute;
+  display: flex;
+  flex-wrap: nowrap;
+  background-color: gainsboro;
+  width: 101%;
+  margin: 1% -1%;
+}
+
+.parts {
+  cursor: pointer;
+  display: flex;
+  margin: 0% 3%;
+  box-shadow: white;
+  transition: all 0.5s ease;
+}
+
+/* .parts li::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      border-top: 2px solid #262626;
+      border-bottom: 2px solid #262626;
+      transform: scaleY(2);
+      opacity: 0;
+      transition: .5s;
+  } */
+
+.parts li::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 2px;
+  right: 2px;
+  width: 100%;
+  height: 100%;
+  background-color: #262626;
+  transform: scale(0);
+  opacity: 0;
+  transition: 0.5s;
+  z-index: -1;
+}
+
+.parts li:hover::before {
+  color: #fff;
+  transform: scaleY(1);
+  opacity: 1;
+}
+
+.parts li:after::after {
+  transform: scaleY(1);
+  opacity: 1;
+}
+
+#text {
+  display: inline-block;
+  font-size: 15px;
+  margin-left: 5%;
+}
+
+#dropdown1 ul li {
+  /* opacity: 0;
+      visibility: hidden; */
+  display: block;
+  list-style-type: none;
+  margin-top: 15px;
+  margin-left: -15px;
+}
+
+@media only screen and (min-width: 900px) and (max-width: 1300px) {
+  .search-text {
+    display: none;
+  }
+
+  .search-button {
+    width: 50px;
+  }
+
+  .img {
+    background-image: url("https://reflectivesafetyjackets.in/wp-content/uploads/2019/11/indiamart-icon.png");
+    background-size: contain;
+    margin-right: 0%;
+  }
+
+  #best-price {
+    font-size: 8px;
+    max-width: 80%;
+  }
+
+  .right > div {
+    font-size: 10px;
+  }
+
+  .location {
+    margin-left: -6%;
+  }
+}
+
+.productdiv {
+  margin: 7% 2.5%;
+}
+
+.section {
+  font-family: arial;
+  background-color: #fff;
+  overflow: hidden;
+  border-top: 3px solid #2e3192;
+  /* height: 560px; */
+  margin: -5% 1%;
+}
+
+.inner-box {
+  width: 98%;
+  margin: 1px 1%;
+  display: grid;
+  grid-template-columns: 30% 70%;
+}
+
+.maskimg {
+  border: 0;
+  outline: 0;
+  font-family: arial;
+  overflow: hidden;
+  display: flex;
+  width: 325px;
+  height: 411px;
+  align-items: start;
+  margin: 15px;
+
+  position: relative;
+  /* width: 100%; */
+
+  /* position: relative; */
+}
+
+.img-mask {
+  font-family: arial;
+
+  position: absolute;
+
+  width: 100%;
+  min-height: 100%;
+  display: block;
+}
+
+.maskimg .img-mask {
+  background: linear-gradient(rgba(0, 0, 0, 0) 0, #161616 100%, #000000 100%);
+  content: "";
+  filter: blur(3px);
+  filter: brightness(30%);
+  /* filter: drop-shadow(100%); */
+  /* opacity:1; */
+}
+
+.inner-text {
+  border: 0;
+  outline: 0;
+  margin: 0;
+  font-family: arial;
+  position: absolute;
+  bottom: 0;
+  padding: 15px;
+  left: 0;
+  z-index: 2;
+}
+
+.links {
+  font-family: arial;
+  border: 0;
+  outline: 0;
+  margin: 0;
+  list-style: none;
+  line-height: 14px;
+}
+
+.dekh {
+  font-family: arial;
+  list-style: none;
+  border: 0;
+  outline: 0;
+  margin: 0;
+  text-decoration: none;
+  color: #fff;
+  display: inline-block;
+  font-size: 16px;
+  line-height: 28px;
+  padding: 0 15px;
+}
+
+.button-view {
+  font-family: arial;
+  border: 0;
+  outline: 0;
+  text-decoration: none;
+  color: #fff;
+  font-size: 16px;
+  background: #19a598;
+  width: 120px;
+  display: block;
+  text-align: center;
+  box-sizing: border-box;
+  padding: 9px 0;
+  border-radius: 4px;
+  margin: 20px 50px;
+}
+
+.mini-img {
+  border: 0;
+  outline: 0;
+  margin: 0;
+  font-family: arial;
+  display: flex;
+  flex: 1;
+  flex-wrap: wrap;
+  margin-bottom: 15px;
+  align-self: start;
+}
+
+.img-2 {
+  font-family: arial;
+  list-style: none;
+  outline: 0;
+  box-sizing: border-box;
+  padding: 10px;
+  display: flex;
+  width: 31.833%;
+  max-width: 31.833%;
+  min-width: 250px;
+  border: 1px solid #ebebeb;
+  margin: 15px 1.5% 0 0;
+  /* outline: 0; */
+}
+
+.img-3 {
+  width: 100px;
+
+  margin-right: 10px;
+  align-self: center;
+}
+
+.nice1 {
+  list-style: none;
+  width: 100%;
+  overflow: hidden;
+  font-weight: 600;
+}
+
+.nice {
+  /* margin: 0% -32%;
+      /* outline:0; */
+  font-size: 13px;
+  line-height: 25px;
+
+  width: 100%;
+  text-decoration: none;
+  list-style: none;
+  margin: 1% 0%;
+  color: grey;
+  box-sizing: border-box;
+}
+.section-main {
+  display: grid;
+  gap: 150px;
+}
+
+.hov:hover li:nth-child(odd) {
+  border-radius: 80% 80% 2% 2%;
+  transform-origin: top;
+  transform: perspective(350px) rotateX(0deg);
+  margin-top: -1;
+}
+
+.hov:hover li:nth-child(even) {
+  border-radius: 80% 80% 2% 2%;
+  transform-origin: bottom;
+  transform: perspective(3000px);
+  margin-top: 0;
+}
+
+.hov2 li:first-child {
+  margin-top: 0;
+}
+
+.hov {
+  position: relative;
+  height: 40px;
+  width: 112px;
+  color: rgb(255, 255, 255);
+  font-size: 12px;
+  font-family: Helvetica;
+  font-weight: bold;
+  text-align: center;
+  list-style: none;
+  z-index: 2;
+}
+
+ul,
+li {
+  margin: 2px;
+  padding: 0;
+}
+
+.hov2 {
+  position: absolute;
+  z-index: 1;
+}
+
+.hov2 li {
+  list-style: none;
+  background: #19a598;
+  color: white;
+  width: 100px;
+  padding: 1 5px;
+  text-align: left;
+  line-height: 30px;
+  transition: all 0.2s ease-in;
+}
+
+.hov2 li:nth-child(odd) {
+  transform-origin: top;
+  transform: perspective(350px) rotateX(-90deg);
+}
+
+.hov2 li:nth-child(even) {
+  margin-top: -65px;
+  transform-origin: bottom;
+  transform: perspective(350px) rotateX(90deg);
+}
+
+footer {
+  margin-top: 10%;
+}
+
+#fhead {
+  width: 100%;
+  height: 50px;
+}
+
+#fhead > p {
+  margin-left: 5%;
+  color: rgb(0, 153, 255);
+  font-size: 16px;
+}
+
+#fmain {
+  padding: 4px;
+  width: 100%;
+  height: 140px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#fmain > div > p,
+h3 {
+  margin-top: -10px;
+  color: black;
+}
+
+#fmain > div > p,
+h3:hover,
+#fmain > div > p,
+h3:focus {
+  cursor: pointer;
+}
+
+#ffoot {
+  width: 100%;
+  height: 40px;
+  justify-content: space-around;
+}
+
+#ffoot > p {
+  margin-left: 5%;
+}
+
+.dv {
+  width: 20%;
+  text-align: left;
+  margin-left: 50px;
+}
+#location img {
+  margin: 5% 0%;
+  height: 16px;
+}
+.search-text {
+  margin: 6% 6%;
+}
+#best-price > h2 {
+  margin: 6%;
+}
+#youmay {
+  margin: 2% 30%;
+  color: rgb(62, 71, 80);
+}
+#innerbox2img1 {
+  margin-top: -4%;
+  width: 100%;
+}
+.inputpart img {
+  width: 28px;
+  margin: 1% 3%;
+}
+.section > h2 {
+  margin: 16px;
+  font-weight: 700;
+  color: #100f0f;
+}

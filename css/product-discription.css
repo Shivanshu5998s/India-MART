@@ -1,0 +1,276 @@
+* {
+  font-family: sans-serif;
+}
+
+body {
+  background: #e8eaeb;
+}
+
+#cont {
+  width: 97%;
+  height: 1960px;
+  margin: 20px;
+  padding: 20px 20px 25px 20px;
+  border: 1px solid #bfbfbf;
+  background-color: white;
+  box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1),
+    0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+  margin: 30px 20px;
+  border-radius: 5px;
+}
+
+#upper {
+  border: none;
+  width: 97%;
+  height: 500px;
+}
+
+#imgd {
+  border: none;
+  width: 40%;
+  height: 100%;
+  margin-left: 20px;
+}
+
+#info {
+  border: none;
+  width: 35%;
+  height: 100%;
+  padding-left: 20px;
+}
+
+#seller {
+  border: none;
+  width: 25%;
+  height: 95%;
+}
+
+#middle {
+  border: none;
+  width: 60%;
+  height: 400px;
+  padding: 10px;
+}
+
+#lower {
+  border: none;
+  width: 100%;
+  height: 1000px;
+}
+
+#info_pic {
+  border: none;
+  width: 50%;
+  height: 90%;
+  padding: 10px;
+}
+
+#form_div {
+  border: none;
+  width: 50%;
+  height: 80%;
+}
+
+img {
+  width: 80%;
+  height: 80%;
+  margin: 10px 10px 10px 10px;
+}
+
+button {
+  width: 220px;
+  border-style: none;
+  border-radius: 4px;
+  color: white;
+  background-color: #00695c;
+  text-align: left;
+  margin-left: 70px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 50px;
+}
+
+hr {
+  width: 90%;
+  margin-top: -10px;
+  opacity: 0.5;
+}
+
+#btn_box {
+  border: none;
+  padding: 5px;
+  background-color: rgb(235, 235, 235);
+  margin-right: 17px;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+#btn_box > button {
+  margin-left: 110px;
+}
+
+#seller > p,
+h3,
+div > p {
+  text-align: center;
+}
+
+#seller {
+  margin: 10px;
+}
+
+#csell {
+  width: 300px;
+  height: 100px;
+  background-color: whitesmoke;
+  padding: 10px;
+
+  margin-left: 10px;
+}
+
+#middle span {
+  text-align: left;
+  margin-left: 100px;
+  font-weight: bold;
+}
+
+#middle p {
+  text-align: left;
+}
+
+#sbtn {
+  border: none;
+  border-radius: 4px;
+  padding: 5px;
+  width: 650px;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  background-color: whitesmoke;
+}
+
+#sbtn button {
+  text-align: center;
+  width: 150px;
+  font-weight: bold;
+  border-radius: 40px;
+  background-color: linear-gradient(rgb(183, 235, 149), rgb(27, 223, 76));
+}
+
+#info_pic > h3,
+p {
+  text-align: left;
+}
+
+#info_pic > p {
+  text-align: left;
+  font-size: 18px;
+}
+
+#info_pic > img {
+  width: 500px;
+  height: 500px;
+  box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1),
+    0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+  margin-left: 100px;
+  margin-bottom: 70px;
+}
+
+#form_div {
+  border: none;
+  padding: 30px 5px 50px 20px;
+}
+
+#form_div > h2 {
+  margin-top: 40px;
+  text-align: left;
+}
+
+#Enqry {
+  border: none;
+  padding: 10px 5px 10px 20px;
+  background-color: whitesmoke;
+  border-radius: 5px;
+}
+
+#Enqry > p {
+  text-align: left;
+}
+
+#Enqry > input {
+  width: 300px;
+  height: 50px;
+  margin: 10px 10px 2px 50px;
+  font-size: 20px;
+}
+
+#Enqry > button {
+  width: 250px;
+  height: 60px;
+  text-align: center;
+  margin: 30px 10px 30px 200px;
+  font-size: 20px;
+}
+
+.btn:hover,
+.btn:focus {
+  cursor: pointer;
+}
+#price {
+  color: blue;
+}
+#btn_box > h4 {
+  margin-left: 100px;
+  margin-top: 5px;
+}
+#btn_box > input {
+  width: 80px;
+  height: 30px;
+  margin-left: 150px;
+}
+#btn_box > select {
+  width: 70px;
+  height: 35px;
+}
+#get_price {
+  font-size: 18px;
+}
+#request_quote {
+  margin-left: 18px;
+  margin-top: -20px;
+}
+#seller_div1 {
+  width: 150px;
+  height: 150px;
+  margin: auto;
+}
+#contact_seller {
+  font-size: 20px;
+  text-align: center;
+  margin-top: -5px;
+  color: #00695c;
+}
+#company_details {
+  margin-left: 50px;
+}
+#sbtn > div > h4 {
+  margin-top: -10px;
+}
+#lower {
+  display: flex;
+}
+#enqur_h3 {
+  background-color: rgb(10, 10, 95);
+  color: whitesmoke;
+  text-align: left;
+  font-size: 20px;
+  padding: 1px;
+}
+.ARM {
+  margin-left: 30px;
+}
+#YTvideo_div {
+  width: 640px;
+  height: 360px;
+  background-size: contain;
+}

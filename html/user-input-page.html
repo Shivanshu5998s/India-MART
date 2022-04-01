@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="../logos/indiamart.png" type="image/png" />
+    <link rel="stylesheet" href="../css/user-input-page.css" />
+    <title></title>
+  </head>
+  <body>
+    <div id="cont">
+      <div id="img_div">
+        <img src="" id="img" alt="" />
+        <h4>How it works</h4>
+
+        <ul>
+          <li>Tell us what you need by filling the form</li>
+          <li>Recieve Verified supllier details</li>
+          <li>Compare Quotaions and seal the deal</li>
+          <li>Pay with india mart and Get 100%, Buyer Protection</li>
+        </ul>
+      </div>
+
+      <div id="div_form">
+        <h3>Looking to buy something.</h3>
+        <p>Tell us your requirments.</p>
+
+        <form>
+          <p>Enter Product and Service name</p>
+          <input
+            type="text"
+            id="prod_ser"
+            class="btn"
+            placeholder="type here"
+          />
+          <br />
+          <p>Quantity</p>
+          <input type="number" id="qty" class="btn" /><span>kg</span>
+          <br />
+          <p>Total Order Value</p>
+          <select class="btn">
+            <option value="Upto 1000">Upto 1000</option>
+            <option value="1000 to 2000">1000 to 2000</option>
+            <option value="2000 to 3000">2000 to 3000</option>
+            <option value="3000 to 4000">3000 to 4000</option>
+            <option value="4000 to 5000">4000 to 5000</option>
+            <option value="5000 to 6000">5000 to 6000</option>
+          </select>
+          <br />
+          Type<input type="checkbox" />Chapati floor
+          <input type="checkbox" />bread floor
+
+          <h3>Share more details about your requirement.</h3>
+          <p>Add a few mre details to submit your requirement.</p>
+          <p>Why do you need this.</p>
+          <input type="radio" class="btn" /><span>For Reselling</span>
+          <input type="radio" class="btn" /><span>For Bussiness Use</span>
+          <input type="radio" class="btn" /><span>For HomeUse</span>
+          <br />
+
+          <h3>Few more details to get your requirement fulfilled</h3>
+          <p>Share more details to get Best quotes.</p>
+          <p>Requirments details</p>
+          <input type="text" class="btn" />
+          <input type="file" class="btn" />
+          <br />
+          <p>Enter your remaining details.</p>
+          <input
+            type="text"
+            placeholder="Please enter GST number to reach mores sellers."
+          />
+        </form>
+
+        <button class="btn" onclick="next()">Next</button>
+        <button type="reset" class="btn" id="reset">Reset</button>
+      </div>
+    </div>
+  </body>
+</html>
+
+<script src="../js/user-input-page.js"></script>
